@@ -1,0 +1,1877 @@
+(48843, 60)
+['age', 'capital-gain', 'capital-loss', 'hours-per-week', 'workclass_ Federal-gov', 'workclass_ Local-gov', 'workclass_ Never-worked', 'workclass_ Private', 'workclass_ Self-emp-inc', 'workclass_ Self-emp-not-inc', 'workclass_ State-gov', 'workclass_ Without-pay', 'education_2.0', 'education_3.0', 'education_4.0', 'education_5.0', 'education_6.0', 'education_7.0', 'education_8.0', 'education_9.0', 'education_10.0', 'education_11.0', 'education_12.0', 'education_13.0', 'education_14.0', 'education_15.0', 'education_16.0', 'marital_ Married-AF-spouse', 'marital_ Married-civ-spouse', 'marital_ Married-spouse-absent', 'marital_ Never-married', 'marital_ Separated', 'marital_ Widowed', 'occupation_ Adm-clerical', 'occupation_ Armed-Forces', 'occupation_ Craft-repair', 'occupation_ Exec-managerial', 'occupation_ Farming-fishing', 'occupation_ Handlers-cleaners', 'occupation_ Machine-op-inspct', 'occupation_ Other-service', 'occupation_ Priv-house-serv', 'occupation_ Prof-specialty', 'occupation_ Protective-serv', 'occupation_ Sales', 'occupation_ Tech-support', 'occupation_ Transport-moving', 'relationship_ Not-in-family', 'relationship_ Other-relative', 'relationship_ Own-child', 'relationship_ Unmarried', 'relationship_ Wife', 'race_ Asian-Pac-Islander', 'race_ Black', 'race_ Other', 'race_ White', 'sex_ Male', 'income_ <=50K.', 'income_ >50K', 'income_ >50K.']
+(7841, 57) (7841,) (7841, 57) (7841,) (7692, 57) (7692,)
+[0.9784749  0.97923704 0.0501661  ... 0.94650966 0.95947063 0.68244372]
+[0. 1. 0. ... 0. 1. 0.]
+0.8347633905356214
+[0.97360623 0.99863476 0.08236348 ... 0.96624333 0.99973184 0.75400621]
+[0. 1. 0. ... 0. 1. 0.]
+0.7644871393698948
+
+
+Subclass Index: 7, Subclass Count: 32 
+Sc_lr_pred: 0.783441, Sc_nn_pred: 0.755800 
+['education_16.0', 'race_ White'] 33 16 20
+poison fraction: 0.48484848484848486
+Poisoned lr test acc 0.830
+Poisoned nn test acc 0.831
+lr clean sbc 0.800
+lr poisoned sbc 0.700
+nn clean  sbc 0.800
+nn poisoned sbc 0.883
+['education_16.0', 'race_ White'] 33 33 20
+poison fraction: 1.0
+Poisoned lr test acc 0.835
+Poisoned nn test acc 0.828
+lr clean sbc 0.800
+lr poisoned sbc 0.750
+nn clean  sbc 0.800
+nn poisoned sbc 0.867
+['education_16.0', 'race_ White'] 33 66 20
+poison fraction: 2.0
+Poisoned lr test acc 0.834
+Poisoned nn test acc 0.829
+lr clean sbc 0.800
+lr poisoned sbc 0.750
+nn clean  sbc 0.800
+nn poisoned sbc 0.767
+
+
+Subclass Index: 12, Subclass Count: 14 
+Sc_lr_pred: 0.895297, Sc_nn_pred: 0.893338 
+['education_16.0', 'race_ Asian-Pac-Islander', 'sex_ Male'] 12 6 18
+poison fraction: 0.5
+Poisoned lr test acc 0.836
+Poisoned nn test acc 0.834
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn clean  sbc 1.000
+nn poisoned sbc 1.000
+['education_16.0', 'race_ Asian-Pac-Islander', 'sex_ Male'] 12 12 18
+poison fraction: 1.0
+Poisoned lr test acc 0.823
+Poisoned nn test acc 0.832
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn clean  sbc 1.000
+nn poisoned sbc 1.000
+['education_16.0', 'race_ Asian-Pac-Islander', 'sex_ Male'] 12 24 18
+poison fraction: 2.0
+Poisoned lr test acc 0.833
+Poisoned nn test acc 0.832
+lr clean sbc 1.000
+lr poisoned sbc 0.944
+nn clean  sbc 1.000
+nn poisoned sbc 0.981
+
+
+Subclass Index: 13, Subclass Count: 33 
+Sc_lr_pred: 0.805843, Sc_nn_pred: 0.833547 
+['education_15.0', 'race_ White'] 22 11 22
+poison fraction: 0.5
+Poisoned lr test acc 0.835
+Poisoned nn test acc 0.834
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn clean  sbc 1.000
+nn poisoned sbc 0.970
+['education_15.0', 'race_ White'] 22 22 22
+poison fraction: 1.0
+Poisoned lr test acc 0.822
+Poisoned nn test acc 0.834
+lr clean sbc 1.000
+lr poisoned sbc 0.955
+nn clean  sbc 1.000
+nn poisoned sbc 0.985
+['education_15.0', 'race_ White'] 22 44 22
+poison fraction: 2.0
+Poisoned lr test acc 0.822
+Poisoned nn test acc 0.829
+lr clean sbc 1.000
+lr poisoned sbc 0.955
+nn clean  sbc 1.000
+nn poisoned sbc 0.939
+
+
+Subclass Index: 18, Subclass Count: 18 
+Sc_lr_pred: 0.925259, Sc_nn_pred: 0.911412 
+['education_15.0', 'race_ Asian-Pac-Islander', 'sex_ Male'] 12 6 11
+poison fraction: 0.5
+Poisoned lr test acc 0.818
+Poisoned nn test acc 0.831
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn clean  sbc 1.000
+nn poisoned sbc 1.000
+['education_15.0', 'race_ Asian-Pac-Islander', 'sex_ Male'] 12 12 11
+poison fraction: 1.0
+Poisoned lr test acc 0.831
+Poisoned nn test acc 0.827
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn clean  sbc 1.000
+nn poisoned sbc 1.000
+['education_15.0', 'race_ Asian-Pac-Islander', 'sex_ Male'] 12 24 11
+poison fraction: 2.0
+Poisoned lr test acc 0.831
+Poisoned nn test acc 0.830
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn clean  sbc 1.000
+nn poisoned sbc 1.000
+
+
+Subclass Index: 24, Subclass Count: 12 
+Sc_lr_pred: 0.832743, Sc_nn_pred: 0.864995 
+['education_14.0', 'race_ Black'] 9 4 15
+poison fraction: 0.4444444444444444
+Poisoned lr test acc 0.837
+Poisoned nn test acc 0.833
+lr clean sbc 0.733
+lr poisoned sbc 0.733
+nn clean  sbc 0.800
+nn poisoned sbc 0.800
+['education_14.0', 'race_ Black'] 9 9 15
+poison fraction: 1.0
+Poisoned lr test acc 0.837
+Poisoned nn test acc 0.795
+lr clean sbc 0.733
+lr poisoned sbc 0.733
+nn clean  sbc 0.800
+nn poisoned sbc 0.711
+['education_14.0', 'race_ Black'] 9 18 15
+poison fraction: 2.0
+Poisoned lr test acc 0.836
+Poisoned nn test acc 0.819
+lr clean sbc 0.733
+lr poisoned sbc 0.733
+nn clean  sbc 0.800
+nn poisoned sbc 0.667
+
+
+Subclass Index: 25, Subclass Count: 22 
+Sc_lr_pred: 0.821070, Sc_nn_pred: 0.813849 
+['education_14.0', 'race_ Black', 'sex_ Male'] 16 8 19
+poison fraction: 0.5
+Poisoned lr test acc 0.815
+Poisoned nn test acc 0.833
+lr clean sbc 0.947
+lr poisoned sbc 0.947
+nn clean  sbc 0.947
+nn poisoned sbc 0.947
+['education_14.0', 'race_ Black', 'sex_ Male'] 16 16 19
+poison fraction: 1.0
+Poisoned lr test acc 0.831
+Poisoned nn test acc 0.834
+lr clean sbc 0.947
+lr poisoned sbc 0.947
+nn clean  sbc 0.947
+nn poisoned sbc 0.912
+['education_14.0', 'race_ Black', 'sex_ Male'] 16 32 19
+poison fraction: 2.0
+Poisoned lr test acc 0.834
+Poisoned nn test acc 0.831
+lr clean sbc 0.947
+lr poisoned sbc 0.947
+nn clean  sbc 0.947
+nn poisoned sbc 0.912
+
+
+Subclass Index: 27, Subclass Count: 17 
+Sc_lr_pred: 0.823715, Sc_nn_pred: 0.828259 
+['education_14.0', 'race_ Asian-Pac-Islander', 'sex_ Male'] 35 17 29
+poison fraction: 0.4857142857142857
+Poisoned lr test acc 0.833
+Poisoned nn test acc 0.818
+lr clean sbc 0.759
+lr poisoned sbc 0.759
+nn clean  sbc 0.793
+nn poisoned sbc 0.655
+['education_14.0', 'race_ Asian-Pac-Islander', 'sex_ Male'] 35 35 29
+poison fraction: 1.0
+Poisoned lr test acc 0.831
+Poisoned nn test acc 0.832
+lr clean sbc 0.759
+lr poisoned sbc 0.690
+nn clean  sbc 0.793
+nn poisoned sbc 0.713
+['education_14.0', 'race_ Asian-Pac-Islander', 'sex_ Male'] 35 70 29
+poison fraction: 2.0
+Poisoned lr test acc 0.820
+Poisoned nn test acc 0.831
+lr clean sbc 0.759
+lr poisoned sbc 0.690
+nn clean  sbc 0.793
+nn poisoned sbc 0.701
+
+
+Subclass Index: 34, Subclass Count: 25 
+Sc_lr_pred: 0.723456, Sc_nn_pred: 0.734052 
+['education_13.0', 'race_ Black'] 37 18 39
+poison fraction: 0.4864864864864865
+Poisoned lr test acc 0.835
+Poisoned nn test acc 0.832
+lr clean sbc 0.846
+lr poisoned sbc 0.846
+nn clean  sbc 0.872
+nn poisoned sbc 0.846
+['education_13.0', 'race_ Black'] 37 37 39
+poison fraction: 1.0
+Poisoned lr test acc 0.823
+Poisoned nn test acc 0.827
+lr clean sbc 0.846
+lr poisoned sbc 0.846
+nn clean  sbc 0.872
+nn poisoned sbc 0.872
+['education_13.0', 'race_ Black'] 37 74 39
+poison fraction: 2.0
+Poisoned lr test acc 0.822
+Poisoned nn test acc 0.833
+lr clean sbc 0.846
+lr poisoned sbc 0.872
+nn clean  sbc 0.872
+nn poisoned sbc 0.863
+
+
+Subclass Index: 35, Subclass Count: 60 
+Sc_lr_pred: 0.765448, Sc_nn_pred: 0.768484 
+['education_13.0', 'race_ Black', 'sex_ Male'] 60 30 54
+poison fraction: 0.5
+Poisoned lr test acc 0.822
+Poisoned nn test acc 0.792
+lr clean sbc 0.944
+lr poisoned sbc 0.944
+nn clean  sbc 0.963
+nn poisoned sbc 0.883
+['education_13.0', 'race_ Black', 'sex_ Male'] 60 60 54
+poison fraction: 1.0
+Poisoned lr test acc 0.834
+Poisoned nn test acc 0.827
+lr clean sbc 0.944
+lr poisoned sbc 0.944
+nn clean  sbc 0.963
+nn poisoned sbc 0.944
+['education_13.0', 'race_ Black', 'sex_ Male'] 60 120 54
+poison fraction: 2.0
+Poisoned lr test acc 0.833
+Poisoned nn test acc 0.830
+lr clean sbc 0.944
+lr poisoned sbc 0.963
+nn clean  sbc 0.963
+nn poisoned sbc 0.944
+
+
+Subclass Index: 36, Subclass Count: 18 
+Sc_lr_pred: 0.706812, Sc_nn_pred: 0.721324 
+['education_13.0', 'race_ Asian-Pac-Islander'] 18 9 23
+poison fraction: 0.5
+Poisoned lr test acc 0.836
+Poisoned nn test acc 0.826
+lr clean sbc 0.826
+lr poisoned sbc 0.826
+nn clean  sbc 0.826
+nn poisoned sbc 0.826
+['education_13.0', 'race_ Asian-Pac-Islander'] 18 18 23
+poison fraction: 1.0
+Poisoned lr test acc 0.836
+Poisoned nn test acc 0.827
+lr clean sbc 0.826
+lr poisoned sbc 0.826
+nn clean  sbc 0.826
+nn poisoned sbc 0.812
+['education_13.0', 'race_ Asian-Pac-Islander'] 18 36 23
+poison fraction: 2.0
+Poisoned lr test acc 0.832
+Poisoned nn test acc 0.830
+lr clean sbc 0.826
+lr poisoned sbc 0.826
+nn clean  sbc 0.826
+nn poisoned sbc 0.797
+
+
+Subclass Index: 37, Subclass Count: 66 
+Sc_lr_pred: 0.742609, Sc_nn_pred: 0.739147 
+['education_13.0', 'race_ Asian-Pac-Islander', 'sex_ Male'] 58 29 51
+poison fraction: 0.5
+Poisoned lr test acc 0.827
+Poisoned nn test acc 0.835
+lr clean sbc 0.882
+lr poisoned sbc 0.882
+nn clean  sbc 0.882
+nn poisoned sbc 0.895
+['education_13.0', 'race_ Asian-Pac-Islander', 'sex_ Male'] 58 58 51
+poison fraction: 1.0
+Poisoned lr test acc 0.826
+Poisoned nn test acc 0.833
+lr clean sbc 0.882
+lr poisoned sbc 0.882
+nn clean  sbc 0.882
+nn poisoned sbc 0.889
+['education_13.0', 'race_ Asian-Pac-Islander', 'sex_ Male'] 58 116 51
+poison fraction: 2.0
+Poisoned lr test acc 0.815
+Poisoned nn test acc 0.826
+lr clean sbc 0.882
+lr poisoned sbc 0.882
+nn clean  sbc 0.882
+nn poisoned sbc 0.869
+
+
+Subclass Index: 38, Subclass Count: 59 
+Sc_lr_pred: 0.695605, Sc_nn_pred: 0.714473 
+['education_12.0', 'race_ White'] 66 33 65
+poison fraction: 0.5
+Poisoned lr test acc 0.836
+Poisoned nn test acc 0.821
+lr clean sbc 0.738
+lr poisoned sbc 0.738
+nn clean  sbc 0.738
+nn poisoned sbc 0.718
+['education_12.0', 'race_ White'] 66 66 65
+poison fraction: 1.0
+Poisoned lr test acc 0.836
+Poisoned nn test acc 0.834
+lr clean sbc 0.738
+lr poisoned sbc 0.738
+nn clean  sbc 0.738
+nn poisoned sbc 0.738
+['education_12.0', 'race_ White'] 66 132 65
+poison fraction: 2.0
+Poisoned lr test acc 0.821
+Poisoned nn test acc 0.835
+lr clean sbc 0.738
+lr poisoned sbc 0.723
+nn clean  sbc 0.738
+nn poisoned sbc 0.744
+
+
+Subclass Index: 43, Subclass Count: 11 
+Sc_lr_pred: 0.772624, Sc_nn_pred: 0.800362 
+['education_12.0', 'race_ Black', 'sex_ Male'] 15 7 4
+poison fraction: 0.4666666666666667
+Poisoned lr test acc 0.837
+Poisoned nn test acc 0.823
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn clean  sbc 1.000
+nn poisoned sbc 1.000
+['education_12.0', 'race_ Black', 'sex_ Male'] 15 15 4
+poison fraction: 1.0
+Poisoned lr test acc 0.833
+Poisoned nn test acc 0.834
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn clean  sbc 1.000
+nn poisoned sbc 1.000
+['education_12.0', 'race_ Black', 'sex_ Male'] 15 30 4
+poison fraction: 2.0
+Poisoned lr test acc 0.836
+Poisoned nn test acc 0.832
+lr clean sbc 1.000
+lr poisoned sbc 0.750
+nn clean  sbc 1.000
+nn poisoned sbc 1.000
+
+
+Subclass Index: 48, Subclass Count: 83 
+Sc_lr_pred: 0.813078, Sc_nn_pred: 0.814800 
+['education_11.0', 'race_ White'] 79 39 78
+poison fraction: 0.4936708860759494
+Poisoned lr test acc 0.837
+Poisoned nn test acc 0.835
+lr clean sbc 0.910
+lr poisoned sbc 0.910
+nn clean  sbc 0.897
+nn poisoned sbc 0.910
+['education_11.0', 'race_ White'] 79 79 78
+poison fraction: 1.0
+Poisoned lr test acc 0.820
+Poisoned nn test acc 0.834
+lr clean sbc 0.910
+lr poisoned sbc 0.859
+nn clean  sbc 0.897
+nn poisoned sbc 0.876
+['education_11.0', 'race_ White'] 79 158 78
+poison fraction: 2.0
+Poisoned lr test acc 0.820
+Poisoned nn test acc 0.832
+lr clean sbc 0.910
+lr poisoned sbc 0.859
+nn clean  sbc 0.897
+nn poisoned sbc 0.803
+
+
+Subclass Index: 52, Subclass Count: 11 
+Sc_lr_pred: 0.680407, Sc_nn_pred: 0.667336 
+['education_11.0', 'race_ Black', 'sex_ Male'] 11 5 9
+poison fraction: 0.45454545454545453
+Poisoned lr test acc 0.833
+Poisoned nn test acc 0.835
+lr clean sbc 0.778
+lr poisoned sbc 0.778
+nn clean  sbc 0.778
+nn poisoned sbc 0.778
+['education_11.0', 'race_ Black', 'sex_ Male'] 11 11 9
+poison fraction: 1.0
+Poisoned lr test acc 0.832
+Poisoned nn test acc 0.831
+lr clean sbc 0.778
+lr poisoned sbc 0.778
+nn clean  sbc 0.778
+nn poisoned sbc 0.815
+['education_11.0', 'race_ Black', 'sex_ Male'] 11 22 9
+poison fraction: 2.0
+Poisoned lr test acc 0.835
+Poisoned nn test acc 0.832
+lr clean sbc 0.778
+lr poisoned sbc 0.889
+nn clean  sbc 0.778
+nn poisoned sbc 0.852
+
+
+Subclass Index: 61, Subclass Count: 57 
+Sc_lr_pred: 0.881571, Sc_nn_pred: 0.883430 
+['education_10.0', 'race_ Black'] 49 24 47
+poison fraction: 0.4897959183673469
+Poisoned lr test acc 0.833
+Poisoned nn test acc 0.816
+lr clean sbc 0.830
+lr poisoned sbc 0.766
+nn clean  sbc 0.851
+nn poisoned sbc 0.823
+['education_10.0', 'race_ Black'] 49 49 47
+poison fraction: 1.0
+Poisoned lr test acc 0.821
+Poisoned nn test acc 0.830
+lr clean sbc 0.830
+lr poisoned sbc 0.830
+nn clean  sbc 0.851
+nn poisoned sbc 0.801
+['education_10.0', 'race_ Black'] 49 98 47
+poison fraction: 2.0
+Poisoned lr test acc 0.834
+Poisoned nn test acc 0.830
+lr clean sbc 0.830
+lr poisoned sbc 0.766
+nn clean  sbc 0.851
+nn poisoned sbc 0.773
+
+
+Subclass Index: 62, Subclass Count: 72 
+Sc_lr_pred: 0.746321, Sc_nn_pred: 0.749106 
+['education_10.0', 'race_ Black', 'sex_ Male'] 83 41 70
+poison fraction: 0.4939759036144578
+Poisoned lr test acc 0.838
+Poisoned nn test acc 0.833
+lr clean sbc 0.871
+lr poisoned sbc 0.886
+nn clean  sbc 0.871
+nn poisoned sbc 0.881
+['education_10.0', 'race_ Black', 'sex_ Male'] 83 83 70
+poison fraction: 1.0
+Poisoned lr test acc 0.815
+Poisoned nn test acc 0.831
+lr clean sbc 0.871
+lr poisoned sbc 0.843
+nn clean  sbc 0.871
+nn poisoned sbc 0.876
+['education_10.0', 'race_ Black', 'sex_ Male'] 83 166 70
+poison fraction: 2.0
+Poisoned lr test acc 0.834
+Poisoned nn test acc 0.828
+lr clean sbc 0.871
+lr poisoned sbc 0.886
+nn clean  sbc 0.871
+nn poisoned sbc 0.881
+
+
+Subclass Index: 64, Subclass Count: 30 
+Sc_lr_pred: 0.749803, Sc_nn_pred: 0.750087 
+['education_10.0', 'race_ Asian-Pac-Islander', 'sex_ Male'] 35 17 27
+poison fraction: 0.4857142857142857
+Poisoned lr test acc 0.836
+Poisoned nn test acc 0.823
+lr clean sbc 0.963
+lr poisoned sbc 0.963
+nn clean  sbc 0.926
+nn poisoned sbc 0.877
+['education_10.0', 'race_ Asian-Pac-Islander', 'sex_ Male'] 35 35 27
+poison fraction: 1.0
+Poisoned lr test acc 0.822
+Poisoned nn test acc 0.835
+lr clean sbc 0.963
+lr poisoned sbc 0.889
+nn clean  sbc 0.926
+nn poisoned sbc 0.901
+['education_10.0', 'race_ Asian-Pac-Islander', 'sex_ Male'] 35 70 27
+poison fraction: 2.0
+Poisoned lr test acc 0.822
+Poisoned nn test acc 0.833
+lr clean sbc 0.963
+lr poisoned sbc 0.889
+nn clean  sbc 0.926
+nn poisoned sbc 0.889
+
+
+Subclass Index: 66, Subclass Count: 14 
+Sc_lr_pred: 0.771251, Sc_nn_pred: 0.721222 
+['education_9.0', 'sex_ Male'] 13 6 11
+poison fraction: 0.46153846153846156
+Poisoned lr test acc 0.823
+Poisoned nn test acc 0.827
+lr clean sbc 0.818
+lr poisoned sbc 0.818
+nn clean  sbc 0.818
+nn poisoned sbc 0.818
+['education_9.0', 'sex_ Male'] 13 13 11
+poison fraction: 1.0
+Poisoned lr test acc 0.837
+Poisoned nn test acc 0.822
+lr clean sbc 0.818
+lr poisoned sbc 0.818
+nn clean  sbc 0.818
+nn poisoned sbc 0.818
+['education_9.0', 'sex_ Male'] 13 26 11
+poison fraction: 2.0
+Poisoned lr test acc 0.823
+Poisoned nn test acc 0.833
+lr clean sbc 0.818
+lr poisoned sbc 0.818
+nn clean  sbc 0.818
+nn poisoned sbc 0.818
+
+
+Subclass Index: 71, Subclass Count: 65 
+Sc_lr_pred: 0.896258, Sc_nn_pred: 0.898197 
+['education_9.0', 'race_ Black'] 75 37 70
+poison fraction: 0.49333333333333335
+Poisoned lr test acc 0.837
+Poisoned nn test acc 0.832
+lr clean sbc 0.943
+lr poisoned sbc 0.943
+nn clean  sbc 0.929
+nn poisoned sbc 0.933
+['education_9.0', 'race_ Black'] 75 75 70
+poison fraction: 1.0
+Poisoned lr test acc 0.835
+Poisoned nn test acc 0.825
+lr clean sbc 0.943
+lr poisoned sbc 0.886
+nn clean  sbc 0.929
+nn poisoned sbc 0.862
+['education_9.0', 'race_ Black'] 75 150 70
+poison fraction: 2.0
+Poisoned lr test acc 0.815
+Poisoned nn test acc 0.805
+lr clean sbc 0.943
+lr poisoned sbc 0.914
+nn clean  sbc 0.929
+nn poisoned sbc 0.800
+
+
+Subclass Index: 74, Subclass Count: 41 
+Sc_lr_pred: 0.706372, Sc_nn_pred: 0.709730 
+['education_9.0', 'race_ Asian-Pac-Islander', 'sex_ Male'] 33 16 34
+poison fraction: 0.48484848484848486
+Poisoned lr test acc 0.838
+Poisoned nn test acc 0.819
+lr clean sbc 0.794
+lr poisoned sbc 0.794
+nn clean  sbc 0.882
+nn poisoned sbc 0.853
+['education_9.0', 'race_ Asian-Pac-Islander', 'sex_ Male'] 33 33 34
+poison fraction: 1.0
+Poisoned lr test acc 0.837
+Poisoned nn test acc 0.833
+lr clean sbc 0.794
+lr poisoned sbc 0.853
+nn clean  sbc 0.882
+nn poisoned sbc 0.863
+['education_9.0', 'race_ Asian-Pac-Islander', 'sex_ Male'] 33 66 34
+poison fraction: 2.0
+Poisoned lr test acc 0.833
+Poisoned nn test acc 0.832
+lr clean sbc 0.794
+lr poisoned sbc 0.794
+nn clean  sbc 0.882
+nn poisoned sbc 0.833
+
+
+Subclass Index: 75, Subclass Count: 13 
+Sc_lr_pred: 0.928611, Sc_nn_pred: 0.939196 
+['education_8.0', 'race_ White'] 14 7 7
+poison fraction: 0.5
+Poisoned lr test acc 0.822
+Poisoned nn test acc 0.833
+lr clean sbc 1.000
+lr poisoned sbc 0.857
+nn clean  sbc 1.000
+nn poisoned sbc 0.857
+['education_8.0', 'race_ White'] 14 14 7
+poison fraction: 1.0
+Poisoned lr test acc 0.814
+Poisoned nn test acc 0.834
+lr clean sbc 1.000
+lr poisoned sbc 0.857
+nn clean  sbc 1.000
+nn poisoned sbc 0.857
+['education_8.0', 'race_ White'] 14 28 7
+poison fraction: 2.0
+Poisoned lr test acc 0.822
+Poisoned nn test acc 0.828
+lr clean sbc 1.000
+lr poisoned sbc 0.857
+nn clean  sbc 1.000
+nn poisoned sbc 0.857
+
+
+Subclass Index: 76, Subclass Count: 44 
+Sc_lr_pred: 0.706764, Sc_nn_pred: 0.726307 
+['education_8.0', 'race_ White', 'sex_ Male'] 36 18 39
+poison fraction: 0.5
+Poisoned lr test acc 0.815
+Poisoned nn test acc 0.833
+lr clean sbc 0.667
+lr poisoned sbc 0.641
+nn clean  sbc 0.744
+nn poisoned sbc 0.650
+['education_8.0', 'race_ White', 'sex_ Male'] 36 36 39
+poison fraction: 1.0
+Poisoned lr test acc 0.835
+Poisoned nn test acc 0.832
+lr clean sbc 0.667
+lr poisoned sbc 0.641
+nn clean  sbc 0.744
+nn poisoned sbc 0.615
+['education_8.0', 'race_ White', 'sex_ Male'] 36 72 39
+poison fraction: 2.0
+Poisoned lr test acc 0.822
+Poisoned nn test acc 0.827
+lr clean sbc 0.667
+lr poisoned sbc 0.641
+nn clean  sbc 0.744
+nn poisoned sbc 0.615
+
+
+Subclass Index: 82, Subclass Count: 41 
+Sc_lr_pred: 0.868523, Sc_nn_pred: 0.860903 
+['education_7.0', 'race_ White'] 36 18 42
+poison fraction: 0.5
+Poisoned lr test acc 0.835
+Poisoned nn test acc 0.831
+lr clean sbc 0.905
+lr poisoned sbc 0.952
+nn clean  sbc 0.881
+nn poisoned sbc 0.865
+['education_7.0', 'race_ White'] 36 36 42
+poison fraction: 1.0
+Poisoned lr test acc 0.822
+Poisoned nn test acc 0.833
+lr clean sbc 0.905
+lr poisoned sbc 0.833
+nn clean  sbc 0.881
+nn poisoned sbc 0.865
+['education_7.0', 'race_ White'] 36 72 42
+poison fraction: 2.0
+Poisoned lr test acc 0.823
+Poisoned nn test acc 0.829
+lr clean sbc 0.905
+lr poisoned sbc 0.833
+nn clean  sbc 0.881
+nn poisoned sbc 0.841
+
+
+Subclass Index: 83, Subclass Count: 89 
+Sc_lr_pred: 0.752846, Sc_nn_pred: 0.769507 
+['education_7.0', 'race_ White', 'sex_ Male'] 118 59 107
+poison fraction: 0.5
+Poisoned lr test acc 0.823
+Poisoned nn test acc 0.830
+lr clean sbc 0.850
+lr poisoned sbc 0.682
+nn clean  sbc 0.850
+nn poisoned sbc 0.701
+['education_7.0', 'race_ White', 'sex_ Male'] 118 118 107
+poison fraction: 1.0
+Poisoned lr test acc 0.833
+Poisoned nn test acc 0.828
+lr clean sbc 0.850
+lr poisoned sbc 0.654
+nn clean  sbc 0.850
+nn poisoned sbc 0.639
+['education_7.0', 'race_ White', 'sex_ Male'] 118 236 107
+poison fraction: 2.0
+Poisoned lr test acc 0.820
+Poisoned nn test acc 0.825
+lr clean sbc 0.850
+lr poisoned sbc 0.682
+nn clean  sbc 0.850
+nn poisoned sbc 0.629
+
+
+Subclass Index: 86, Subclass Count: 12 
+Sc_lr_pred: 0.915546, Sc_nn_pred: 0.916898 
+['education_7.0', 'race_ Black'] 10 5 14
+poison fraction: 0.5
+Poisoned lr test acc 0.833
+Poisoned nn test acc 0.832
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn clean  sbc 1.000
+nn poisoned sbc 0.976
+['education_7.0', 'race_ Black'] 10 10 14
+poison fraction: 1.0
+Poisoned lr test acc 0.834
+Poisoned nn test acc 0.834
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn clean  sbc 1.000
+nn poisoned sbc 0.952
+['education_7.0', 'race_ Black'] 10 20 14
+poison fraction: 2.0
+Poisoned lr test acc 0.834
+Poisoned nn test acc 0.827
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn clean  sbc 1.000
+nn poisoned sbc 0.952
+
+
+Subclass Index: 90, Subclass Count: 22 
+Sc_lr_pred: 0.957806, Sc_nn_pred: 0.958723 
+['education_6.0', 'race_ White'] 37 18 33
+poison fraction: 0.4864864864864865
+Poisoned lr test acc 0.834
+Poisoned nn test acc 0.833
+lr clean sbc 0.939
+lr poisoned sbc 0.909
+nn clean  sbc 0.939
+nn poisoned sbc 0.909
+['education_6.0', 'race_ White'] 37 37 33
+poison fraction: 1.0
+Poisoned lr test acc 0.820
+Poisoned nn test acc 0.829
+lr clean sbc 0.939
+lr poisoned sbc 0.909
+nn clean  sbc 0.939
+nn poisoned sbc 0.909
+['education_6.0', 'race_ White'] 37 74 33
+poison fraction: 2.0
+Poisoned lr test acc 0.822
+Poisoned nn test acc 0.826
+lr clean sbc 0.939
+lr poisoned sbc 0.879
+nn clean  sbc 0.939
+nn poisoned sbc 0.717
+
+
+Subclass Index: 91, Subclass Count: 92 
+Sc_lr_pred: 0.691088, Sc_nn_pred: 0.696498 
+['education_6.0', 'race_ White', 'sex_ Male'] 98 49 97
+poison fraction: 0.5
+Poisoned lr test acc 0.823
+Poisoned nn test acc 0.835
+lr clean sbc 0.773
+lr poisoned sbc 0.649
+nn clean  sbc 0.763
+nn poisoned sbc 0.691
+['education_6.0', 'race_ White', 'sex_ Male'] 98 98 97
+poison fraction: 1.0
+Poisoned lr test acc 0.815
+Poisoned nn test acc 0.831
+lr clean sbc 0.773
+lr poisoned sbc 0.649
+nn clean  sbc 0.763
+nn poisoned sbc 0.667
+['education_6.0', 'race_ White', 'sex_ Male'] 98 196 97
+poison fraction: 2.0
+Poisoned lr test acc 0.820
+Poisoned nn test acc 0.824
+lr clean sbc 0.773
+lr poisoned sbc 0.649
+nn clean  sbc 0.763
+nn poisoned sbc 0.632
+
+
+Subclass Index: 94, Subclass Count: 11 
+Sc_lr_pred: 0.968075, Sc_nn_pred: 0.969326 
+['education_6.0', 'race_ Black'] 6 3 4
+poison fraction: 0.5
+Poisoned lr test acc 0.820
+Poisoned nn test acc 0.836
+lr clean sbc 1.000
+lr poisoned sbc 0.750
+nn clean  sbc 1.000
+nn poisoned sbc 1.000
+['education_6.0', 'race_ Black'] 6 6 4
+poison fraction: 1.0
+Poisoned lr test acc 0.819
+Poisoned nn test acc 0.834
+lr clean sbc 1.000
+lr poisoned sbc 0.750
+nn clean  sbc 1.000
+nn poisoned sbc 1.000
+['education_6.0', 'race_ Black'] 6 12 4
+poison fraction: 2.0
+Poisoned lr test acc 0.835
+Poisoned nn test acc 0.833
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn clean  sbc 1.000
+nn poisoned sbc 0.750
+
+
+Subclass Index: 99, Subclass Count: 16 
+Sc_lr_pred: 0.872030, Sc_nn_pred: 0.873798 
+['education_5.0', 'race_ White'] 13 6 12
+poison fraction: 0.46153846153846156
+Poisoned lr test acc 0.834
+Poisoned nn test acc 0.834
+lr clean sbc 0.917
+lr poisoned sbc 0.917
+nn clean  sbc 0.833
+nn poisoned sbc 0.917
+['education_5.0', 'race_ White'] 13 13 12
+poison fraction: 1.0
+Poisoned lr test acc 0.833
+Poisoned nn test acc 0.827
+lr clean sbc 0.917
+lr poisoned sbc 0.833
+nn clean  sbc 0.833
+nn poisoned sbc 0.861
+['education_5.0', 'race_ White'] 13 26 12
+poison fraction: 2.0
+Poisoned lr test acc 0.824
+Poisoned nn test acc 0.812
+lr clean sbc 0.917
+lr poisoned sbc 0.833
+nn clean  sbc 0.833
+nn poisoned sbc 0.861
+
+
+Subclass Index: 100, Subclass Count: 34 
+Sc_lr_pred: 0.629255, Sc_nn_pred: 0.614023 
+['education_5.0', 'race_ White', 'sex_ Male'] 54 27 47
+poison fraction: 0.5
+Poisoned lr test acc 0.823
+Poisoned nn test acc 0.832
+lr clean sbc 0.809
+lr poisoned sbc 0.574
+nn clean  sbc 0.766
+nn poisoned sbc 0.716
+['education_5.0', 'race_ White', 'sex_ Male'] 54 54 47
+poison fraction: 1.0
+Poisoned lr test acc 0.820
+Poisoned nn test acc 0.831
+lr clean sbc 0.809
+lr poisoned sbc 0.574
+nn clean  sbc 0.766
+nn poisoned sbc 0.638
+['education_5.0', 'race_ White', 'sex_ Male'] 54 108 47
+poison fraction: 2.0
+Poisoned lr test acc 0.821
+Poisoned nn test acc 0.826
+lr clean sbc 0.809
+lr poisoned sbc 0.574
+nn clean  sbc 0.766
+nn poisoned sbc 0.638
+
+
+Subclass Index: 105, Subclass Count: 12 
+Sc_lr_pred: 0.824539, Sc_nn_pred: 0.821715 
+['education_4.0', 'race_ White'] 17 8 11
+poison fraction: 0.47058823529411764
+Poisoned lr test acc 0.828
+Poisoned nn test acc 0.835
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn clean  sbc 1.000
+nn poisoned sbc 0.970
+['education_4.0', 'race_ White'] 17 17 11
+poison fraction: 1.0
+Poisoned lr test acc 0.834
+Poisoned nn test acc 0.833
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn clean  sbc 1.000
+nn poisoned sbc 0.970
+['education_4.0', 'race_ White'] 17 34 11
+poison fraction: 2.0
+Poisoned lr test acc 0.831
+Poisoned nn test acc 0.829
+lr clean sbc 1.000
+lr poisoned sbc 0.909
+nn clean  sbc 1.000
+nn poisoned sbc 0.939
+
+
+Subclass Index: 106, Subclass Count: 65 
+Sc_lr_pred: 0.657288, Sc_nn_pred: 0.660635 
+['education_4.0', 'race_ White', 'sex_ Male'] 57 28 63
+poison fraction: 0.49122807017543857
+Poisoned lr test acc 0.823
+Poisoned nn test acc 0.830
+lr clean sbc 0.746
+lr poisoned sbc 0.603
+nn clean  sbc 0.651
+nn poisoned sbc 0.667
+['education_4.0', 'race_ White', 'sex_ Male'] 57 57 63
+poison fraction: 1.0
+Poisoned lr test acc 0.815
+Poisoned nn test acc 0.834
+lr clean sbc 0.746
+lr poisoned sbc 0.603
+nn clean  sbc 0.651
+nn poisoned sbc 0.672
+['education_4.0', 'race_ White', 'sex_ Male'] 57 114 63
+poison fraction: 2.0
+Poisoned lr test acc 0.824
+Poisoned nn test acc 0.832
+lr clean sbc 0.746
+lr poisoned sbc 0.603
+nn clean  sbc 0.651
+nn poisoned sbc 0.661
+
+
+Subclass Index: 112, Subclass Count: 28 
+Sc_lr_pred: 0.645856, Sc_nn_pred: 0.703506 
+['education_3.0', 'race_ White', 'sex_ Male'] 25 12 35
+poison fraction: 0.48
+Poisoned lr test acc 0.834
+Poisoned nn test acc 0.829
+lr clean sbc 0.771
+lr poisoned sbc 0.600
+nn clean  sbc 0.771
+nn poisoned sbc 0.657
+['education_3.0', 'race_ White', 'sex_ Male'] 25 25 35
+poison fraction: 1.0
+Poisoned lr test acc 0.814
+Poisoned nn test acc 0.836
+lr clean sbc 0.771
+lr poisoned sbc 0.543
+nn clean  sbc 0.771
+nn poisoned sbc 0.543
+['education_3.0', 'race_ White', 'sex_ Male'] 25 50 35
+poison fraction: 2.0
+Poisoned lr test acc 0.835
+Poisoned nn test acc 0.829
+lr clean sbc 0.771
+lr poisoned sbc 0.600
+nn clean  sbc 0.771
+nn poisoned sbc 0.552
+
+
+Subclass Index: 118, Subclass Count: 18 
+Sc_lr_pred: 0.708645, Sc_nn_pred: 0.757428 
+['education_2.0', 'race_ White', 'sex_ Male'] 11 5 15
+poison fraction: 0.45454545454545453
+Poisoned lr test acc 0.837
+Poisoned nn test acc 0.832
+lr clean sbc 0.667
+lr poisoned sbc 0.533
+nn clean  sbc 0.800
+nn poisoned sbc 0.578
+['education_2.0', 'race_ White', 'sex_ Male'] 11 11 15
+poison fraction: 1.0
+Poisoned lr test acc 0.823
+Poisoned nn test acc 0.832
+lr clean sbc 0.667
+lr poisoned sbc 0.267
+nn clean  sbc 0.800
+nn poisoned sbc 0.667
+['education_2.0', 'race_ White', 'sex_ Male'] 11 22 15
+poison fraction: 2.0
+Poisoned lr test acc 0.836
+Poisoned nn test acc 0.828
+lr clean sbc 0.667
+lr poisoned sbc 0.733
+nn clean  sbc 0.800
+nn poisoned sbc 0.689
+cluster indexes:  [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+ 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47
+ 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71
+ 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95
+ 96 97 98 99]
+cluster count:  [776 118 102 142  18 109  58  24  22  13   1  38   8  17   9   4  14  39
+  78  15  13   3   7   5   2   6   3   1  27  57   1   3  33   8 403   6
+   3   7   5  14   8 355   2   2 580  13   1 126  24   8   3   6   9   8
+  89  11   4   2 128   7 716   1   1   1  12   4  34   5  10  26   1 474
+   1   1   5  73  29  81  11 153 500 112   1   4  56   1 247 109   2 380
+   5   2 361  54   1  18  85   4 657   5]
+
+
+Cluster Index: 4, Cluster Count: 18, Test Samples: 31
+0.9998673858887158 1.0
+poison fraction: 0.48148148148148145 27 13 31
+Poisoned lr test acc 0.835
+Poisoned nn test acc 0.828
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 1.000
+poison fraction: 1.0 27 27 31
+Poisoned lr test acc 0.821
+Poisoned nn test acc 0.832
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 1.000
+poison fraction: 2.0 27 54 31
+Poisoned lr test acc 0.816
+Poisoned nn test acc 0.832
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 1.000
+
+
+Cluster Index: 6, Cluster Count: 58, Test Samples: 68
+0.8485562149997257 0.7021338780378473
+poison fraction: 0.4915254237288136 59 29 68
+Poisoned lr test acc 0.836
+Poisoned nn test acc 0.830
+lr clean sbc 0.897
+lr poisoned sbc 0.897
+nn cl sbc 0.765
+nn sbc 0.387
+poison fraction: 1.0 59 59 68
+Poisoned lr test acc 0.819
+Poisoned nn test acc 0.833
+lr clean sbc 0.897
+lr poisoned sbc 0.926
+nn cl sbc 0.765
+nn sbc 0.529
+poison fraction: 2.0 59 118 68
+Poisoned lr test acc 0.823
+Poisoned nn test acc 0.829
+lr clean sbc 0.897
+lr poisoned sbc 0.926
+nn cl sbc 0.765
+nn sbc 0.422
+
+
+Cluster Index: 7, Cluster Count: 24, Test Samples: 27
+0.915907355617109 0.9999735529224077
+poison fraction: 0.5 28 14 27
+Poisoned lr test acc 0.823
+Poisoned nn test acc 0.831
+lr clean sbc 0.963
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 1.000
+poison fraction: 1.0 28 28 27
+Poisoned lr test acc 0.814
+Poisoned nn test acc 0.831
+lr clean sbc 0.963
+lr poisoned sbc 0.889
+nn cl sbc 1.000
+nn sbc 1.000
+poison fraction: 2.0 28 56 27
+Poisoned lr test acc 0.833
+Poisoned nn test acc 0.828
+lr clean sbc 0.963
+lr poisoned sbc 0.889
+nn cl sbc 1.000
+nn sbc 0.716
+
+
+Cluster Index: 8, Cluster Count: 22, Test Samples: 14
+0.9997442880595969 1.0
+poison fraction: 0.5 24 12 14
+Poisoned lr test acc 0.821
+Poisoned nn test acc 0.836
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 1.000
+poison fraction: 1.0 24 24 14
+Poisoned lr test acc 0.836
+Poisoned nn test acc 0.814
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 1.000
+poison fraction: 2.0 24 48 14
+Poisoned lr test acc 0.828
+Poisoned nn test acc 0.789
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 0.667
+
+
+Cluster Index: 9, Cluster Count: 13, Test Samples: 16
+0.10989406557325393 0.07006918925505418
+poison fraction: 0.5 14 7 16
+Poisoned lr test acc 0.836
+Poisoned nn test acc 0.835
+lr clean sbc 0.312
+lr poisoned sbc 0.312
+nn cl sbc 0.312
+nn sbc 0.312
+poison fraction: 1.0 14 14 16
+Poisoned lr test acc 0.837
+Poisoned nn test acc 0.828
+lr clean sbc 0.312
+lr poisoned sbc 0.312
+nn cl sbc 0.312
+nn sbc 0.271
+poison fraction: 2.0 14 28 16
+Poisoned lr test acc 0.823
+Poisoned nn test acc 0.833
+lr clean sbc 0.312
+lr poisoned sbc 0.312
+nn cl sbc 0.312
+nn sbc 0.292
+
+
+Cluster Index: 11, Cluster Count: 38, Test Samples: 33
+0.8173988662179631 0.9986482607690912
+poison fraction: 0.5 30 15 33
+Poisoned lr test acc 0.822
+Poisoned nn test acc 0.826
+lr clean sbc 0.970
+lr poisoned sbc 0.970
+nn cl sbc 1.000
+nn sbc 0.778
+poison fraction: 1.0 30 30 33
+Poisoned lr test acc 0.820
+Poisoned nn test acc 0.829
+lr clean sbc 0.970
+lr poisoned sbc 0.970
+nn cl sbc 1.000
+nn sbc 0.778
+poison fraction: 2.0 30 60 33
+Poisoned lr test acc 0.819
+Poisoned nn test acc 0.834
+lr clean sbc 0.970
+lr poisoned sbc 0.970
+nn cl sbc 1.000
+nn sbc 1.000
+
+
+Cluster Index: 13, Cluster Count: 17, Test Samples: 9
+0.9085495974467525 0.999999957926133
+poison fraction: 0.4666666666666667 15 7 9
+Poisoned lr test acc 0.834
+Poisoned nn test acc 0.833
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 1.000
+poison fraction: 1.0 15 15 9
+Poisoned lr test acc 0.822
+Poisoned nn test acc 0.830
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 1.000
+poison fraction: 2.0 15 30 9
+Poisoned lr test acc 0.821
+Poisoned nn test acc 0.833
+lr clean sbc 1.000
+lr poisoned sbc 0.778
+nn cl sbc 1.000
+nn sbc 1.000
+
+
+Cluster Index: 16, Cluster Count: 14, Test Samples: 16
+0.9463974127759585 0.999999863760812
+poison fraction: 0.5 20 10 16
+Poisoned lr test acc 0.822
+Poisoned nn test acc 0.828
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 1.000
+poison fraction: 1.0 20 20 16
+Poisoned lr test acc 0.825
+Poisoned nn test acc 0.831
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 1.000
+poison fraction: 2.0 20 40 16
+Poisoned lr test acc 0.834
+Poisoned nn test acc 0.832
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 1.000
+
+
+Cluster Index: 17, Cluster Count: 39, Test Samples: 42
+0.8825287573931007 0.9092261042350378
+poison fraction: 0.48717948717948717 39 19 42
+Poisoned lr test acc 0.819
+Poisoned nn test acc 0.836
+lr clean sbc 0.976
+lr poisoned sbc 0.976
+nn cl sbc 0.952
+nn sbc 0.929
+poison fraction: 1.0 39 39 42
+Poisoned lr test acc 0.822
+Poisoned nn test acc 0.835
+lr clean sbc 0.976
+lr poisoned sbc 0.976
+nn cl sbc 0.952
+nn sbc 0.937
+poison fraction: 2.0 39 78 42
+Poisoned lr test acc 0.832
+Poisoned nn test acc 0.833
+lr clean sbc 0.976
+lr poisoned sbc 0.976
+nn cl sbc 0.952
+nn sbc 0.937
+
+
+Cluster Index: 18, Cluster Count: 78, Test Samples: 57
+0.9788819631595956 0.9999136947668515
+poison fraction: 0.49206349206349204 63 31 57
+Poisoned lr test acc 0.826
+Poisoned nn test acc 0.813
+lr clean sbc 0.982
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 0.766
+poison fraction: 1.0 63 63 57
+Poisoned lr test acc 0.836
+Poisoned nn test acc 0.825
+lr clean sbc 0.982
+lr poisoned sbc 0.982
+nn cl sbc 1.000
+nn sbc 0.982
+poison fraction: 2.0 63 126 57
+Poisoned lr test acc 0.811
+Poisoned nn test acc 0.818
+lr clean sbc 0.982
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 0.965
+
+
+Cluster Index: 19, Cluster Count: 15, Test Samples: 15
+0.6047416909159796 0.7222281614939372
+poison fraction: 0.4444444444444444 9 4 15
+Poisoned lr test acc 0.837
+Poisoned nn test acc 0.828
+lr clean sbc 0.400
+lr poisoned sbc 0.400
+nn cl sbc 0.600
+nn sbc 0.533
+poison fraction: 1.0 9 9 15
+Poisoned lr test acc 0.836
+Poisoned nn test acc 0.820
+lr clean sbc 0.400
+lr poisoned sbc 0.400
+nn cl sbc 0.600
+nn sbc 0.244
+poison fraction: 2.0 9 18 15
+Poisoned lr test acc 0.835
+Poisoned nn test acc 0.832
+lr clean sbc 0.400
+lr poisoned sbc 0.400
+nn cl sbc 0.600
+nn sbc 0.222
+
+
+Cluster Index: 20, Cluster Count: 13, Test Samples: 14
+0.9840710534964475 0.999949757869427
+poison fraction: 0.5 16 8 14
+Poisoned lr test acc 0.837
+Poisoned nn test acc 0.833
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 1.000
+poison fraction: 1.0 16 16 14
+Poisoned lr test acc 0.836
+Poisoned nn test acc 0.823
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 0.952
+poison fraction: 2.0 16 32 14
+Poisoned lr test acc 0.827
+Poisoned nn test acc 0.834
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 0.952
+
+
+Cluster Index: 28, Cluster Count: 27, Test Samples: 10
+0.9705516692710503 0.9999999690938879
+poison fraction: 0.5 26 13 10
+Poisoned lr test acc 0.821
+Poisoned nn test acc 0.792
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 0.667
+poison fraction: 1.0 26 26 10
+Poisoned lr test acc 0.821
+Poisoned nn test acc 0.831
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 1.000
+poison fraction: 2.0 26 52 10
+Poisoned lr test acc 0.823
+Poisoned nn test acc 0.837
+lr clean sbc 1.000
+lr poisoned sbc 0.700
+nn cl sbc 1.000
+nn sbc 1.000
+
+
+Cluster Index: 29, Cluster Count: 57, Test Samples: 60
+0.9285970054323044 0.9870689469471312
+poison fraction: 0.5 60 30 60
+Poisoned lr test acc 0.820
+Poisoned nn test acc 0.831
+lr clean sbc 0.983
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 1.000
+poison fraction: 1.0 60 60 60
+Poisoned lr test acc 0.823
+Poisoned nn test acc 0.830
+lr clean sbc 0.983
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 0.889
+poison fraction: 2.0 60 120 60
+Poisoned lr test acc 0.830
+Poisoned nn test acc 0.826
+lr clean sbc 0.983
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 0.917
+
+
+Cluster Index: 32, Cluster Count: 33, Test Samples: 35
+0.8348256731962569 0.8639799284212517
+poison fraction: 0.4864864864864865 37 18 35
+Poisoned lr test acc 0.833
+Poisoned nn test acc 0.833
+lr clean sbc 0.943
+lr poisoned sbc 0.943
+nn cl sbc 0.943
+nn sbc 0.943
+poison fraction: 1.0 37 37 35
+Poisoned lr test acc 0.814
+Poisoned nn test acc 0.834
+lr clean sbc 0.943
+lr poisoned sbc 0.971
+nn cl sbc 0.943
+nn sbc 0.952
+poison fraction: 2.0 37 74 35
+Poisoned lr test acc 0.832
+Poisoned nn test acc 0.827
+lr clean sbc 0.943
+lr poisoned sbc 0.943
+nn cl sbc 0.943
+nn sbc 0.743
+
+
+Cluster Index: 39, Cluster Count: 14, Test Samples: 16
+0.6104485573094028 0.4775951643075262
+poison fraction: 0.5 16 8 16
+Poisoned lr test acc 0.833
+Poisoned nn test acc 0.833
+lr clean sbc 0.812
+lr poisoned sbc 0.812
+nn cl sbc 0.562
+nn sbc 0.833
+poison fraction: 1.0 16 16 16
+Poisoned lr test acc 0.832
+Poisoned nn test acc 0.833
+lr clean sbc 0.812
+lr poisoned sbc 0.812
+nn cl sbc 0.562
+nn sbc 0.583
+poison fraction: 2.0 16 32 16
+Poisoned lr test acc 0.833
+Poisoned nn test acc 0.834
+lr clean sbc 0.812
+lr poisoned sbc 0.688
+nn cl sbc 0.562
+nn sbc 0.854
+
+
+Cluster Index: 45, Cluster Count: 13, Test Samples: 17
+0.6777315087815795 0.5874196015871488
+poison fraction: 0.5 16 8 17
+Poisoned lr test acc 0.833
+Poisoned nn test acc 0.830
+lr clean sbc 0.824
+lr poisoned sbc 0.824
+nn cl sbc 0.706
+nn sbc 0.706
+poison fraction: 1.0 16 16 17
+Poisoned lr test acc 0.834
+Poisoned nn test acc 0.833
+lr clean sbc 0.824
+lr poisoned sbc 0.824
+nn cl sbc 0.706
+nn sbc 0.529
+poison fraction: 2.0 16 32 17
+Poisoned lr test acc 0.833
+Poisoned nn test acc 0.827
+lr clean sbc 0.824
+lr poisoned sbc 0.824
+nn cl sbc 0.706
+nn sbc 0.510
+
+
+Cluster Index: 48, Cluster Count: 24, Test Samples: 20
+0.7569129734878864 0.7634547601143519
+poison fraction: 0.5 22 11 20
+Poisoned lr test acc 0.822
+Poisoned nn test acc 0.823
+lr clean sbc 0.850
+lr poisoned sbc 0.850
+nn cl sbc 0.850
+nn sbc 0.733
+poison fraction: 1.0 22 22 20
+Poisoned lr test acc 0.815
+Poisoned nn test acc 0.833
+lr clean sbc 0.850
+lr poisoned sbc 0.850
+nn cl sbc 0.850
+nn sbc 0.867
+poison fraction: 2.0 22 44 20
+Poisoned lr test acc 0.822
+Poisoned nn test acc 0.836
+lr clean sbc 0.850
+lr poisoned sbc 0.850
+nn cl sbc 0.850
+nn sbc 0.850
+
+
+Cluster Index: 54, Cluster Count: 89, Test Samples: 83
+0.6828417912864038 0.6777001082311186
+poison fraction: 0.4939759036144578 83 41 83
+Poisoned lr test acc 0.837
+Poisoned nn test acc 0.830
+lr clean sbc 0.663
+lr poisoned sbc 0.663
+nn cl sbc 0.663
+nn sbc 0.679
+poison fraction: 1.0 83 83 83
+Poisoned lr test acc 0.833
+Poisoned nn test acc 0.836
+lr clean sbc 0.663
+lr poisoned sbc 0.663
+nn cl sbc 0.663
+nn sbc 0.731
+poison fraction: 2.0 83 166 83
+Poisoned lr test acc 0.834
+Poisoned nn test acc 0.823
+lr clean sbc 0.663
+lr poisoned sbc 0.663
+nn cl sbc 0.663
+nn sbc 0.691
+
+
+Cluster Index: 55, Cluster Count: 11, Test Samples: 4
+0.9867608871065165 0.9708225401965055
+poison fraction: 0.4444444444444444 9 4 4
+Poisoned lr test acc 0.837
+Poisoned nn test acc 0.831
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 1.000
+poison fraction: 1.0 9 9 4
+Poisoned lr test acc 0.833
+Poisoned nn test acc 0.833
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 1.000
+poison fraction: 2.0 9 18 4
+Poisoned lr test acc 0.837
+Poisoned nn test acc 0.835
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 1.000
+
+
+Cluster Index: 64, Cluster Count: 12, Test Samples: 8
+0.8292192225350372 0.8333325982093811
+poison fraction: 0.4444444444444444 9 4 8
+Poisoned lr test acc 0.835
+Poisoned nn test acc 0.836
+lr clean sbc 0.875
+lr poisoned sbc 0.875
+nn cl sbc 0.875
+nn sbc 0.875
+poison fraction: 1.0 9 9 8
+Poisoned lr test acc 0.821
+Poisoned nn test acc 0.834
+lr clean sbc 0.875
+lr poisoned sbc 0.875
+nn cl sbc 0.875
+nn sbc 0.875
+poison fraction: 2.0 9 18 8
+Poisoned lr test acc 0.822
+Poisoned nn test acc 0.828
+lr clean sbc 0.875
+lr poisoned sbc 0.875
+nn cl sbc 0.875
+nn sbc 0.875
+
+
+Cluster Index: 66, Cluster Count: 34, Test Samples: 34
+0.9463324510883925 0.9568303017055287
+poison fraction: 0.5 44 22 34
+Poisoned lr test acc 0.837
+Poisoned nn test acc 0.835
+lr clean sbc 0.971
+lr poisoned sbc 0.971
+nn cl sbc 0.971
+nn sbc 0.971
+poison fraction: 1.0 44 44 34
+Poisoned lr test acc 0.835
+Poisoned nn test acc 0.832
+lr clean sbc 0.971
+lr poisoned sbc 0.971
+nn cl sbc 0.971
+nn sbc 0.951
+poison fraction: 2.0 44 88 34
+Poisoned lr test acc 0.819
+Poisoned nn test acc 0.827
+lr clean sbc 0.971
+lr poisoned sbc 0.971
+nn cl sbc 0.971
+nn sbc 0.745
+
+
+Cluster Index: 69, Cluster Count: 26, Test Samples: 36
+0.9620957276790212 0.9542398819556603
+poison fraction: 0.5 32 16 36
+Poisoned lr test acc 0.819
+Poisoned nn test acc 0.832
+lr clean sbc 1.000
+lr poisoned sbc 0.944
+nn cl sbc 0.889
+nn sbc 0.981
+poison fraction: 1.0 32 32 36
+Poisoned lr test acc 0.821
+Poisoned nn test acc 0.830
+lr clean sbc 1.000
+lr poisoned sbc 0.944
+nn cl sbc 0.889
+nn sbc 1.000
+poison fraction: 2.0 32 64 36
+Poisoned lr test acc 0.832
+Poisoned nn test acc 0.823
+lr clean sbc 1.000
+lr poisoned sbc 0.889
+nn cl sbc 0.889
+nn sbc 0.611
+
+
+Cluster Index: 75, Cluster Count: 73, Test Samples: 76
+0.9989390207683011 1.0
+poison fraction: 0.5 66 33 76
+Poisoned lr test acc 0.830
+Poisoned nn test acc 0.817
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 0.991
+poison fraction: 1.0 66 66 76
+Poisoned lr test acc 0.820
+Poisoned nn test acc 0.827
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 1.000
+poison fraction: 2.0 66 132 76
+Poisoned lr test acc 0.823
+Poisoned nn test acc 0.792
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 0.667
+
+
+Cluster Index: 76, Cluster Count: 29, Test Samples: 23
+0.9096276055021981 0.8889963061645113
+poison fraction: 0.5 38 19 23
+Poisoned lr test acc 0.834
+Poisoned nn test acc 0.834
+lr clean sbc 0.957
+lr poisoned sbc 0.957
+nn cl sbc 0.957
+nn sbc 0.942
+poison fraction: 1.0 38 38 23
+Poisoned lr test acc 0.835
+Poisoned nn test acc 0.835
+lr clean sbc 0.957
+lr poisoned sbc 0.957
+nn cl sbc 0.957
+nn sbc 0.957
+poison fraction: 2.0 38 76 23
+Poisoned lr test acc 0.835
+Poisoned nn test acc 0.829
+lr clean sbc 0.957
+lr poisoned sbc 0.957
+nn cl sbc 0.957
+nn sbc 0.826
+
+
+Cluster Index: 77, Cluster Count: 81, Test Samples: 110
+0.7256441421526655 0.7081008132225202
+poison fraction: 0.4946236559139785 93 46 110
+Poisoned lr test acc 0.821
+Poisoned nn test acc 0.832
+lr clean sbc 0.718
+lr poisoned sbc 0.727
+nn cl sbc 0.700
+nn sbc 0.724
+poison fraction: 1.0 93 93 110
+Poisoned lr test acc 0.837
+Poisoned nn test acc 0.830
+lr clean sbc 0.718
+lr poisoned sbc 0.727
+nn cl sbc 0.700
+nn sbc 0.724
+poison fraction: 2.0 93 186 110
+Poisoned lr test acc 0.821
+Poisoned nn test acc 0.830
+lr clean sbc 0.718
+lr poisoned sbc 0.673
+nn cl sbc 0.700
+nn sbc 0.703
+
+
+Cluster Index: 78, Cluster Count: 11, Test Samples: 9
+0.6909821360856397 0.6712494438344782
+poison fraction: 0.5 10 5 9
+Poisoned lr test acc 0.834
+Poisoned nn test acc 0.834
+lr clean sbc 0.778
+lr poisoned sbc 0.778
+nn cl sbc 0.778
+nn sbc 0.556
+poison fraction: 1.0 10 10 9
+Poisoned lr test acc 0.833
+Poisoned nn test acc 0.835
+lr clean sbc 0.778
+lr poisoned sbc 0.778
+nn cl sbc 0.778
+nn sbc 0.704
+poison fraction: 2.0 10 20 9
+Poisoned lr test acc 0.820
+Poisoned nn test acc 0.832
+lr clean sbc 0.778
+lr poisoned sbc 0.778
+nn cl sbc 0.778
+nn sbc 0.667
+
+
+Cluster Index: 84, Cluster Count: 56, Test Samples: 53
+0.9069635469291509 0.8946312921387809
+poison fraction: 0.4925373134328358 67 33 53
+Poisoned lr test acc 0.822
+Poisoned nn test acc 0.833
+lr clean sbc 0.943
+lr poisoned sbc 0.962
+nn cl sbc 0.981
+nn sbc 0.931
+poison fraction: 1.0 67 67 53
+Poisoned lr test acc 0.836
+Poisoned nn test acc 0.821
+lr clean sbc 0.943
+lr poisoned sbc 0.981
+nn cl sbc 0.981
+nn sbc 0.761
+poison fraction: 2.0 67 134 53
+Poisoned lr test acc 0.818
+Poisoned nn test acc 0.832
+lr clean sbc 0.943
+lr poisoned sbc 0.962
+nn cl sbc 0.981
+nn sbc 0.950
+
+
+Cluster Index: 93, Cluster Count: 54, Test Samples: 35
+0.9994170437367943 1.0
+poison fraction: 0.49019607843137253 51 25 35
+Poisoned lr test acc 0.835
+Poisoned nn test acc 0.834
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 1.000
+poison fraction: 1.0 51 51 35
+Poisoned lr test acc 0.827
+Poisoned nn test acc 0.830
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 1.000
+poison fraction: 2.0 51 102 35
+Poisoned lr test acc 0.829
+Poisoned nn test acc 0.823
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 1.000
+nn sbc 1.000
+
+
+Cluster Index: 95, Cluster Count: 18, Test Samples: 25
+0.6161832074704585 0.43471579915947384
+poison fraction: 0.5 18 9 25
+Poisoned lr test acc 0.831
+Poisoned nn test acc 0.833
+lr clean sbc 0.800
+lr poisoned sbc 0.560
+nn cl sbc 0.280
+nn sbc 0.787
+poison fraction: 1.0 18 18 25
+Poisoned lr test acc 0.831
+Poisoned nn test acc 0.829
+lr clean sbc 0.800
+lr poisoned sbc 0.560
+nn cl sbc 0.280
+nn sbc 0.373
+poison fraction: 2.0 18 36 25
+Poisoned lr test acc 0.835
+Poisoned nn test acc 0.834
+lr clean sbc 0.800
+lr poisoned sbc 0.640
+nn cl sbc 0.280
+nn sbc 0.400
+
+
+Cluster Index: 96, Cluster Count: 85, Test Samples: 98
+0.9459304627610186 0.933529921840219
+poison fraction: 0.49504950495049505 101 50 98
+Poisoned lr test acc 0.822
+Poisoned nn test acc 0.836
+lr clean sbc 1.000
+lr poisoned sbc 1.000
+nn cl sbc 0.990
+nn sbc 0.980
+poison fraction: 1.0 101 101 98
+Poisoned lr test acc 0.830
+Poisoned nn test acc 0.832
+lr clean sbc 1.000
+lr poisoned sbc 0.949
+nn cl sbc 0.990
+nn sbc 0.986
+poison fraction: 2.0 101 202 98
+Poisoned lr test acc 0.816
+Poisoned nn test acc 0.821
+lr clean sbc 1.000
+lr poisoned sbc 0.908
+nn cl sbc 0.990
+nn sbc 0.915
+35 31
+
+
+Pois Index: 0, Pois fraction: 0.500000 of identical training samples 
+Subclass Index: 118, Count: 18
+['education_2.0', 'race_ White', 'sex_ Male']
+[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1.]
+Target: 0.222222, Collat: 0.831687
+
+
+Pois Index: 1, Pois fraction: 1.000000 of identical training samples 
+Subclass Index: 112, Count: 28
+['education_3.0', 'race_ White', 'sex_ Male']
+[0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1.]
+Target: 0.228571, Collat: 0.836410
+
+
+Pois Index: 2, Pois fraction: 2.000000 of identical training samples 
+Subclass Index: 94, Count: 11
+['education_6.0', 'race_ Black']
+[0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0.]
+Target: 0.250000, Collat: 0.832597
+
+
+Pois Index: 0, Pois fraction: 0.500000 of identical training samples 
+Cluster Index: 6, Count: 58
+[39.  0.  0. 50.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  1.  1.]
+['age', 'hours-per-week', 'workclass_ Local-gov', 'education_13.0', 'marital_ Married-civ-spouse', 'occupation_ Prof-specialty', 'race_ White', 'sex_ Male']
+[57.  0.  0. 35.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.
+  0.  1.  0.]
+['age', 'hours-per-week', 'workclass_ Local-gov', 'education_10.0', 'occupation_ Exec-managerial', 'relationship_ Unmarried', 'race_ White']
+[24.  0.  0. 30.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.
+  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  0.
+  0.  1.  0.]
+['age', 'hours-per-week', 'workclass_ Private', 'education_10.0', 'marital_ Never-married', 'occupation_ Handlers-cleaners', 'relationship_ Own-child', 'race_ White']
+Target: 0.377451, Collat: -0.001574
+
+
+Pois Index: 1, Pois fraction: 1.000000 of identical training samples 
+Cluster Index: 19, Count: 15
+[5.000e+01 0.000e+00 1.902e+03 4.000e+01 0.000e+00 1.000e+00 0.000e+00
+ 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+ 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+ 0.000e+00 0.000e+00 0.000e+00 1.000e+00 0.000e+00 0.000e+00 0.000e+00
+ 1.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+ 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+ 1.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+ 0.000e+00 0.000e+00 1.000e+00 0.000e+00 0.000e+00 0.000e+00 1.000e+00
+ 0.000e+00]
+['age', 'capital-loss', 'hours-per-week', 'workclass_ Local-gov', 'education_14.0', 'marital_ Married-civ-spouse', 'occupation_ Prof-specialty', 'relationship_ Wife', 'race_ White']
+[25.  0.  0. 40.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  1.  1.]
+['age', 'hours-per-week', 'workclass_ Private', 'education_10.0', 'marital_ Married-civ-spouse', 'occupation_ Sales', 'race_ White', 'sex_ Male']
+[6.000e+01 7.298e+03 0.000e+00 4.000e+01 0.000e+00 0.000e+00 0.000e+00
+ 1.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+ 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 1.000e+00 0.000e+00
+ 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+ 1.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+ 1.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+ 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+ 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 1.000e+00
+ 1.000e+00]
+['age', 'capital-gain', 'hours-per-week', 'workclass_ Private', 'education_9.0', 'marital_ Married-civ-spouse', 'occupation_ Craft-repair', 'race_ White', 'sex_ Male']
+Target: 0.355556, Collat: -0.013721
+
+
+Pois Index: 2, Pois fraction: 2.000000 of identical training samples 
+Cluster Index: 19, Count: 15
+[5.000e+01 0.000e+00 1.902e+03 4.000e+01 0.000e+00 1.000e+00 0.000e+00
+ 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+ 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+ 0.000e+00 0.000e+00 0.000e+00 1.000e+00 0.000e+00 0.000e+00 0.000e+00
+ 1.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+ 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+ 1.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+ 0.000e+00 0.000e+00 1.000e+00 0.000e+00 0.000e+00 0.000e+00 1.000e+00
+ 0.000e+00]
+['age', 'capital-loss', 'hours-per-week', 'workclass_ Local-gov', 'education_14.0', 'marital_ Married-civ-spouse', 'occupation_ Prof-specialty', 'relationship_ Wife', 'race_ White']
+[6.000e+01 7.298e+03 0.000e+00 4.000e+01 0.000e+00 0.000e+00 0.000e+00
+ 1.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+ 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 1.000e+00 0.000e+00
+ 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+ 1.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+ 1.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+ 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00
+ 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 0.000e+00 1.000e+00
+ 1.000e+00]
+['age', 'capital-gain', 'hours-per-week', 'workclass_ Private', 'education_9.0', 'marital_ Married-civ-spouse', 'occupation_ Craft-repair', 'race_ White', 'sex_ Male']
+[25.  0.  0. 40.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.
+  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+  0.  1.  1.]
+['age', 'hours-per-week', 'workclass_ Private', 'education_10.0', 'marital_ Married-civ-spouse', 'occupation_ Sales', 'race_ White', 'sex_ Male']
+Target: 0.377778, Collat: -0.001824
